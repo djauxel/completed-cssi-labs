@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.box3 {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+#box1 {
+  background-color: red;
+}
+
+#box2 {
+  background-color: pink;
+}
+
+#box3 {
+  background-color: orange;
+}

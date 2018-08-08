@@ -1,0 +1,17 @@
+#welcome-title {
+    color:crimson;
+}
+
+#grocery-list,
+#pc-list {
+    color:blue;
+}
+
+body {
+    color:fuchsia; 
+}
+
+.meme-pic {
+    width:250px;
+    height: 175px;
+}

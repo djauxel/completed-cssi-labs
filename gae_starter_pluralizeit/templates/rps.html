@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+  <h1>Welcome to Rock-Paper-Scissors</h1>
+  <form class="" action="/rps" method="post">
+    <label>Select your choice:</label>
+    <select name="player_move">
+      <option value="r">Rock</option>
+      <option value="p">Paper</option>
+      <option value="s">Scissor</option>
+    </select>
+    <input type="Submit" value="Play">
+  </form>
+  <p>Player: {{player_move}}</p>
+  <p>Computer: {{computer_move}}</p>
+  <p>Result: {{result}}</p>
+  <p>Player chance: {{player_chance}}%</p>
+  <p>Computer chance: {{computer_chance}}%</p>
+  <p>Player wins: {{player_wins}}</p>
+  <p>Player losses: {{player_losses}}</p>
+  <p>Player ties: {{player_ties}}</p>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+  <title>Pluralize It</title>
+</head>
+<body>
+  <h1>Welcome to Pluralize It</h1>
+  <p>Do you know all the ways that you can convert a word from
+    its singular form to its plural? </p>
+  <form action="/pluralize" method="post">
+    <label>Enter a singular word:</label>
+    <input type="text" name="singular" value={{singular}}>
+    <input type="Submit" value="Pluralize It!">
+  </form>
+  <h2>{{plural}}</h2>
+</body>

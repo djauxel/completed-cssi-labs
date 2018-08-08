@@ -1,0 +1,36 @@
+.box {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    color: white;
+    font-family: Helvetica;
+    font-size: 300%;
+}
+
+.a {
+    background-color: #26a69a;
+}
+
+.b {
+    background-color: #e91e63;
+}
+
+.c {
+    background-color: #673ab7;
+}
+
+.d {
+    background-color: #01579b;
+}
+
+.e {
+    background-color: #82b1ff;
+}
+
+.wrapper {
+    display: grid;
+}

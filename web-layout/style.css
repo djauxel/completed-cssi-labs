@@ -1,0 +1,163 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+#ruby,
+#assembly {
+    background-color: white;
+}
+
+#python,
+#cpp {
+    background-color: dodgerblue;
+}
+
+#c,
+#java {
+    background-color: orange;
+}
+
+#swift,
+#c_sharp {
+    background-color: violet;
+}
+
+#php,
+#java_script {
+    background-color: limegreen;
+}
+
+.flex-row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 100px;
+    padding: 5px;
+    margin: 30px;
+    border: 5px red solid;
+    background-color: red;
+}
+
+.flex-row1 #item00 {
+    flex: .20 .20 10em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: aqua;
+}
+
+.flex-row1 #item01 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: pink;
+}
+
+.flex-row1 #item02 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: purple;
+}
+
+.flex-row1 #item03 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: orange;
+}
+
+.flex-row1 #item04 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: blue;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1280px;
+    height: 100px;
+    padding: 5px;
+    margin: 30px;
+    border: 5px blue solid;
+    background-color: blue;
+}
+
+.flex-row2 #item10 {
+    flex: .20 .20 10em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: aqua;
+}
+
+.flex-row2 #item11 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px red solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: pink;
+}
+
+.flex-row2 #item12 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px blue solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: purple;
+}
+
+.flex-row2 #item13 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px blue solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: orange;
+}
+
+.flex-row2 #item14 {
+    flex: .20 .20 5em;
+    display: flex;
+    border: 1px blue solid;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    /* and that, will result in a 10px gap */
+    background-color: blue;
+}
